@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": ["core/bg.js"]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/128.png"
+      },
+      "default_popup": "html/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "core/jquery-3.2.1.min.js", "core/cs.js" ],
+      "matches": [ "*://odnoklassniki.ru/*", "*://www.odnoklassniki.ru/*", "*://ok.ru/*", "*://www.ok.ru/*", "*://*.mycdn.me/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "author": "Plugtopus Agency",
+   "homepage_url": "https://plugtopus.agency",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "permissions": [ "contextMenus", "storage", "tabs", "cookies", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+   "short_name": "Изменить дизайн ОК",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.3.13.1",
+   "web_accessible_resources": [ "css/cs.css", "css/fonts/*", "img/icon.png" ]
+}

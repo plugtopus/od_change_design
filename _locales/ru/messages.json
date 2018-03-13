@@ -1,0 +1,94 @@
+{
+   "About": {
+      "message": "О себе"
+   },
+   "AutohideTopPanel": {
+      "description": "",
+      "message": "Панель ОК, при скроле"
+   },
+   "Events": {
+      "message": "События"
+   },
+   "Familiar": {
+      "message": "Вы знакомы?"
+   },
+   "Favorites": {
+      "message": "Закладки"
+   },
+   "Font": {
+      "message": "Шрифты"
+   },
+   "FriendOnline": {
+      "message": "Вошел на сайт"
+   },
+   "FriendsCommon": {
+      "message": "Что общего?"
+   },
+   "Games": {
+      "message": "Игры для вас"
+   },
+   "General": {
+      "message": "Скрыть панели"
+   },
+   "Groups": {
+      "message": "Группы"
+   },
+   "HideBlocks": {
+      "message": "Скрыть блоки"
+   },
+   "HideGifts": {
+      "message": "Скрыть подарки"
+   },
+   "HideMarksOverPhoto": {
+      "message": "Скрыть оценки над фотографиями"
+   },
+   "HideNotifCounters": {
+      "message": "Скрыть счетчики оповещений"
+   },
+   "HideOnlineMarker": {
+      "message": "Скрыть моргающий маркер онлайна"
+   },
+   "HidePanelMail": {
+      "message": "Панель Mail.Ru"
+   },
+   "HidePlayerButton": {
+      "message": "Скрыть кнопку плеера"
+   },
+   "Holidays": {
+      "message": "Праздники"
+   },
+   "Moderator": {
+      "message": "Модератор Одноклассников"
+   },
+   "Music4u": {
+      "message": "Музыка для вас"
+   },
+   "PageColor": {
+      "message": "Цвет фона"
+   },
+   "PageOpacity": {
+      "message": "Прозрачность фона"
+   },
+   "Popups": {
+      "message": "Всплывающие сообщения"
+   },
+   "Settings": {
+      "message": "Настройки"
+   },
+   "SiteDesign": {
+      "message": "Скрыть мелкие элементы"
+   },
+   "StandartFont": {
+      "message": "Шрифт по умолчанию"
+   },
+   "Worked": {
+      "message": "Работали вместе?"
+   },
+   "desc": {
+      "description": "",
+      "message": "Расширение позволяет с легкостью изменить и настроить внешний вид сайта Одноклассники по вашему желанию."
+   },
+   "name": {
+      "message": "Изменить дизайн ОК"
+   }
+}

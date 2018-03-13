@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html style="width:300px; height:527px">
+
+<head>
+    <title>Изменить дизайн ОК</title>
+    <meta content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="../css/popup.css">
+    <script type="text/javascript" src="/core/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/core/popup.js"></script>
+    <script type="text/javascript" src="/core/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div id="topbar" class="topbar">
+        <div class="logo_img"></div>
+        <ul class="toolbar_nav">
+            <li class="">
+                <div class="toolbar_nav_i_ic nav_changeok"></div>
+            </li>
+        </ul>
+        <li class="toolbar_nav_i">
+            <div class="hookBlock">
+                <a href="setts" id="nav_setts" class="toolbar_nav_a toolbar_button">
+                    <div class="toolbar_nav_i_ic nav_setts">
+                        <div unselectable="on" data-lang="Settings" class="toolbar_nav_i_tx-w usel-off"></div>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li class="toolbar_nav_i">
+            <div class="hookBlock">
+                <a href="fonts" id="nav_fonts" class="toolbar_nav_a toolbar_button">
+                    <div class="toolbar_nav_i_ic nav_fonts">
+                        <div unselectable="on" data-lang="Font" class="toolbar_nav_i_tx-w usel-off"></div>
+                    </div>
+                </a>
+            </div>
+        </li>
+    </div>
+    <div id="settings_block" style="display: none">
+        <div id="hidingblocks_accord">
+            <h3 data-lang="General"></h3>
+            <div>
+                <div data-lang="HidePanelMail" id="s_mailbar" class="progbutton"></div>
+                <div data-lang="AutohideTopPanel" id="s_autohidebar" class="progbutton"></div>
+            </div>
+            <h3 data-lang="HideBlocks"></h3>
+            <div>
+                <div data-lang="Popups" id="s_bubblenotif" class="progbutton"></div>
+                <div data-lang="About" id="s_abouts" class="progbutton"></div>
+                <div data-lang="Games" id="s_games" class="progbutton"></div>
+                <div data-lang="Music4u" id="s_music4u" class="progbutton"></div>
+                <div data-lang="FriendsCommon" id="s_friendcommon" class="progbutton"></div>
+                <div data-lang="Holidays" id="s_holydays" class="progbutton"></div>
+                <div data-lang="Familiar" id="s_possible" class="progbutton"></div>
+                <div data-lang="Events" id="s_happenings" class="progbutton"></div>
+                <div data-lang="Worked" id="s_workwith" class="progbutton"></div>
+                <div data-lang="Groups" id="s_groups" class="progbutton"></div>
+                <div data-lang="Favorites" id="s_bookmarks" class="progbutton"></div>
+                <div data-lang="FriendOnline" id="s_friendonline" class="progbutton"></div>
+                <div data-lang="Moderator" id="s_moderatorblock" class="progbutton"></div>
+            </div>
+            <h3 data-lang="SiteDesign"></h3>
+            <div>
+                <div data-lang="HideGifts" id="s_hidepresents" class="progbutton"></div>
+                <div data-lang="HideMarksOverPhoto" id="s_hidemarks" class="progbutton"></div>
+                <div data-lang="HideNotifCounters" id="s_hidecounters" class="progbutton"></div>
+                <div data-lang="HideOnlineMarker" id="s_hideonlinem" class="progbutton"></div>
+                <div data-lang="HidePlayerButton" id="s_playerbutton" class="progbutton"></div>
+            </div>
+            <h3 data-lang="PageColor"></h3>
+            <div id="pagecolor_selector">
+                <div style="background: #fff" class="colorb"></div>
+                <div style="background: #f2f0ed" class="colorb"></div>
+                <div style="background: rgb(241,43,189)" class="colorb"></div>
+                <div style="background: rgb(50,29,34)" class="colorb"></div>
+                <div style="background: rgb(131,182,147)" class="colorb"></div>
+                <div style="background: rgb(196,62,252)" class="colorb"></div>
+                <div style="background: rgb(192,150,206)" class="colorb"></div>
+                <div style="background: rgb(52,220,228)" class="colorb"></div>
+                <div style="background: rgb(94,176,33)" class="colorb"></div>
+                <div style="background: rgb(1,43,4)" class="colorb"></div>
+                <div style="background: rgb(68,116,120)" class="colorb"></div>
+                <div style="background: rgb(50,189,60)" class="colorb"></div>
+                <div style="background: rgb(143,127,16)" class="colorb"></div>
+                <div style="background: rgb(228,227,173)" class="colorb"></div>
+                <div style="background: rgb(111,58,97)" class="colorb"></div>
+                <div style="background: rgb(50,218,166)" class="colorb"></div>
+                <div style="background: rgb(46,30,168)" class="colorb"></div>
+                <div style="background: rgb(170,79,191)" class="colorb"></div>
+                <div style="background: rgb(177,66,133)" class="colorb"></div>
+                <div style="background: rgb(147,251,33)" class="colorb"></div>
+                <div style="background: rgb(237,189,32)" class="colorb"></div>
+                <div style="background: rgb(120,233,63)" class="colorb"></div>
+                <div style="background: rgb(97,163,42)" class="colorb"></div>
+                <div style="background: rgb(113,109,117)" class="colorb"></div>
+                <div style="background: rgb(131,114,14)" class="colorb"></div>
+                <div style="background: rgb(196,145,177)" class="colorb"></div>
+                <div style="background: rgb(250,125,182)" class="colorb"></div>
+                <div style="background: rgb(7,2,145)" class="colorb"></div>
+                <div style="background: rgb(251,11,67)" class="colorb"></div>
+                <div style="background: rgb(160,44,142)" class="colorb"></div>
+                <div style="background: rgb(186,80,107)" class="colorb"></div>
+                <div style="background: rgb(152,187,245)" class="colorb"></div>
+                <div style="background: rgb(249,214,205)" class="colorb"></div>
+                <div style="background: rgb(90,209,243)" class="colorb"></div>
+                <div style="background: rgb(246,37,166)" class="colorb"></div>
+                <div style="background: rgb(225,188,110)" class="colorb"></div>
+                <div style="background: rgb(46,8,29)" class="colorb"></div>
+                <div style="background: rgb(159,226,91)" class="colorb"></div>
+                <div style="background: rgb(126,88,231)" class="colorb"></div>
+                <div style="background: rgb(184,35,52)" class="colorb"></div>
+                <div style="background: rgb(93,112,139)" class="colorb"></div>
+                <div style="background: rgb(169,4,0)" class="colorb"></div>
+                <div style="background: rgb(31,161,189)" class="colorb"></div>
+                <div style="background: rgb(59,168,208)" class="colorb"></div>
+                <div style="background: rgb(10,249,62)" class="colorb"></div>
+                <div style="background: rgb(215,8,209)" class="colorb"></div>
+                <div style="background: rgb(180,142,198)" class="colorb"></div>
+                <div style="background: rgb(65,61,17)" class="colorb"></div>
+                <div style="background: rgb(44,105,57)" class="colorb"></div>
+                <div style="background: rgb(26,69,114)" class="colorb"></div>
+                <div style="background: rgb(17,118,15)" class="colorb"></div>
+                <div style="background: rgb(35,41,179)" class="colorb"></div>
+                <div style="background: rgb(85,186,42)" class="colorb"></div>
+                <div style="background: rgb(195,65,239)" class="colorb"></div>
+                <div style="background: rgb(88,125,248)" class="colorb"></div>
+                <div style="background: rgb(102,2,59)" class="colorb"></div>
+                <div style="background: rgb(192,232,117)" class="colorb"></div>
+                <div style="background: rgb(130,222,158)" class="colorb"></div>
+                <div style="background: rgb(252,233,155)" class="colorb"></div>
+                <div style="background: rgb(158,95,152)" class="colorb"></div>
+                <div style="background: rgb(131,191,185)" class="colorb"></div>
+                <div style="background: rgb(167,187,81)" class="colorb"></div>
+                <div style="background: rgb(52,207,77)" class="colorb"></div>
+                <div style="background: rgb(53,2,61)" class="colorb"></div>
+                <div style="background: rgb(93,212,152)" class="colorb"></div>
+                <div style="background: rgb(95,220,105)" class="colorb"></div>
+                <div style="background: rgb(198,25,114)" class="colorb"></div>
+                <div style="background: rgb(138,108,100)" class="colorb"></div>
+                <div style="background: rgb(162,35,47)" class="colorb"></div>
+                <div style="background: rgb(164,203,60)" class="colorb"></div>
+                <div style="background: rgb(237,120,183)" class="colorb"></div>
+                <div style="background: rgb(141,152,123)" class="colorb"></div>
+                <div style="background: rgb(87,29,29)" class="colorb"></div>
+            </div>
+            <h3 data-lang="PageOpacity"></h3>
+            <div>
+                <div id="l_pagetransp"></div>
+            </div>
+        </div>
+    </div>
+    <div id="fonts_block" style="display: none">
+        <div id="ft_none" data-font="-1" data-google="" class="decbutton">
+            <div data-lang="StandartFont" class="decbg"></div>
+        </div>
+        <div id="ft_ubun" data-font="Ubuntu" data-google="https://fonts.googleapis.com/css?family=Ubuntu&amp;subset=latin,cyrillic-ext,cyrillic" class="decbutton">
+            <div class="decbg">Ubuntu</div>
+        </div>
+        <div id="ft_rusl" data-font="Ruslan Display" data-google="https://fonts.googleapis.com/css?family=Ruslan+Display&amp;subset=latin,cyrillic-ext,cyrillic" class="decbutton" data-size="13">
+            <div class="decbg">Ruslan Display</div>
+        </div>
+        <div id="ft_lobs" data-font="Lobster" data-google="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin,cyrillic-ext,cyrillic" class="decbutton">
+            <div class="decbg">Lobster</div>
+        </div>
+        <div id="ft_ruso" data-font="Russo One" data-google="https://fonts.googleapis.com/css?family=Russo+One&amp;subset=latin,cyrillic-ext,cyrillic" class="decbutton" data-size="13">
+            <div class="decbg">Russo One</div>
+        </div>
+        <div id="ft_pros" data-font="Prosto One" data-google="https://fonts.googleapis.com/css?family=Prosto+One&amp;subset=latin,cyrillic-ext,cyrillic" class="decbutton" data-size="11">
+            <div class="decbg">Prosto One</div>
+        </div>
+        <div id="ft_verd" data-font="Verdana" data-google="" class="decbutton" data-size="13">
+            <div class="decbg">Verdana</div>
+        </div>
+        <div id="ft_cour" data-font="Courier New" data-google="" class="decbutton" data-size="13">
+            <div class="decbg">Courier New</div>
+        </div>
+        <div id="ft_sego" data-font="Segoe UI" data-google="" class="decbutton" data-size="11">
+            <div class="decbg">Segoe UI</div>
+        </div>
+        <div id="ft_syst" data-font="Segoe Print" data-google="" class="decbutton" data-size="11">
+            <div class="decbg">Segoe Print</div>
+        </div>
+        <div id="ft_pala" data-font="Palatino Linotype" data-google="" class="decbutton">
+            <div class="decbg">Palatino Linotype</div>
+        </div>
+        <div id="ft_monc" data-font="Monotype Corsiva" data-google="" class="decbutton">
+            <div class="decbg">Monotype Corsiva</div>
+        </div>
+        <div id="ft_cons" data-font="Consolas" data-google="" class="decbutton">
+            <div class="decbg">Consolas</div>
+        </div>
+        <div id="ft_tims" data-font="Times New Roman" data-google="" class="decbutton">
+            <div class="decbg">Times New Roman</div>
+        </div>
+        <div id="ft_taho" data-font="Tahoma" data-google="" class="decbutton">
+            <div class="decbg">Tahoma</div>
+        </div>
+    </div>
+</body>
+
+</html>
